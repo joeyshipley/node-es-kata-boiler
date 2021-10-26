@@ -2,7 +2,6 @@
 
 ### Local Setup
 - Node 16.x installed (consider nvm if you have not used it before)
-- ``` terminal > npm install --global mocha ```
 - ``` terminal > npm install ```
 
 #### Running the kata
@@ -11,12 +10,16 @@
 #### Running the test suite
 - ``` terminal > npm test ```
 
-#### Running an individual spec file
+#### Running an individual specs/tests
+If not already installed, you will need to have mocha installed globally to your node version.
+- ``` terminal > npm install --global mocha ```
+
+**Specific spec file**
 - ``` terminal > mocha tests/kata.specs.js```
 
-#### Running a specific test
-- Replace the string value with the message in your test declaration.
+**Specific test**
 - ``` terminal > mocha -g 'allows tests to control dependency output' ```
+*Replace the string value with the message in your test declaration.*
 
 ### Resources
 - [nvm](https://github.com/nvm-sh/nvm)
