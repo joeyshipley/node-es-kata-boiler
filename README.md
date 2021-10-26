@@ -14,11 +14,12 @@
 If not already installed, you will need to have mocha installed globally to your node version.
 - ``` terminal > npm install --global mocha ```
 
-**Specific spec file**
+##### Specific spec file
 - ``` terminal > mocha tests/kata.specs.js```
 
-**Specific test**
+##### Specific test
 - ``` terminal > mocha -g 'allows tests to control dependency output' ```
+
 *Replace the string value with the message in your test declaration.*
 
 ### Resources
