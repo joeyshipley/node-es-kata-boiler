@@ -1,16 +1,22 @@
 # ES Kata Boiler
 
-### Local Setup
+### Setup
 - Node 16.x installed (consider nvm if you have not used it before)
 - ``` terminal > npm install ```
+- *(optional)* ``` terminal > npm install --global mocha ```
 
-#### Running the kata
+### Running Stuff
+
+#### One Line Bash Command
+- ``` terminal > bash bashRunner.sh ```
+
+#### Node Runner: Kata
 - ``` terminal > npm start ```
 
-#### Running the test suite
+#### Node Runner: Test Suite
 - ``` terminal > npm test ```
 
-#### Running an individual specs/tests
+#### Node Runner: Individual Specs/Tests
 If not already installed, you will need to have mocha installed globally to your node version.
 - ``` terminal > npm install --global mocha ```
 
